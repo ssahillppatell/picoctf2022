@@ -2,10 +2,39 @@ encStr = "268 413 110 190 426 419 108 229 310 379 323 373 385 236 92 96 169 321 
 
 encArr = [int(i) for i in encStr.split(" ")]
 
-def invmod(a,b): return 0 if a==0 else 1 if b%a==0 else b - invmod(b%a,a)*b//a
+def modInverse(a, m):
+ 
+    g = gcd(a, m)
+ 
+    if (g != 1):
+        print("Inverse doesn't exist")
+        return 0
+ 
+    else:
+        return power(a, m - 2, m)
+ 
+ 
+ 
+def power(x, y, m):
+    if (y == 0):
+        return 1
+ 
+    p = power(x, y // 2, m) % m
+    p = (p * p) % m
+ 
+    if(y % 2 == 0):
+        return p
+    else:
+        return ((x * p) % m)
+ 
+ 
+def gcd(a, b):
+    if (a == 0):
+        return b
+    return gcd(b % a, a)
 
 for i in encArr:
-    modval = invmod(i % 41, i)
+    modval = modInverse(i % 41, 41)
     # print(modval, end=" ")
     if modval < 27:
         print(chr(ord('a') + modval - 1), end="")

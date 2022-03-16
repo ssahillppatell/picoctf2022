@@ -1,0 +1,56 @@
+/lib64/ld-linux-x86-64.so.2
+mgUa
+libcrypto.so.1.1
+__gmon_start__
+_ITM_deregisterTMCloneTable
+_ITM_registerTMCloneTable
+libc.so.6
+sprintf
+puts
+__stack_chk_fail
+stdin
+fgets
+strlen
+__cxa_finalize
+__libc_start_main
+OPENSSL_1_1_0
+GLIBC_2.4
+GLIBC_2.2.5
+u+UH
+picoCTF{H
+br1ng_y0H
+ur_0wn_kH
+dH34%(
+[]A\A]A^A_
+%02x
+Enter your license key: 
+That key is valid.
+That key is invalid.
+:*3$"
+GCC: (Ubuntu 9.3.0-17ubuntu1~20.04) 9.3.0
+.shstrtab
+.interp
+.note.gnu.property
+.note.gnu.build-id
+.note.ABI-tag
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rela.dyn
+.rela.plt
+.init
+.plt.got
+.plt.sec
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.init_array
+.fini_array
+.dynamic
+.data
+.bss
+.comment
