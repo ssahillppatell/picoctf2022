@@ -1,0 +1,15 @@
+TCP/UDP/... Sessions
+File: capture.flag.pcap, Type: tcpdump, Created at: Wed Mar 16 20:40:24 2022
+
+1    10.0.2.15:68 <-> 10.0.2.3:67                  (bootps)        842 bytes
+2    10.0.2.15:57876 -> 10.0.2.4:9001              (9001)          415 bytes
+3    10.0.2.15:43928 -> 35.224.170.84:80           (http)          235 bytes
+"       session_0003.http.html                                     286 bytes
+"       session_0003.part_01.empty                                   0 bytes
+4    10.0.2.15:56370 -> 10.0.2.4:9002              (9002)           48 bytes
+5    10.0.2.15:54135 <-> 10.0.2.1:53               (domain)        116 bytes
+"       stream_0005.domain.html                                    167 bytes
+"       session_0005.domain.txt                                    518 bytes
+6    10.0.2.15:45595 <-> 10.0.2.1:53               (domain)        116 bytes
+"       stream_0006.domain.html                                    167 bytes
+"       session_0006.domain.txt                                    518 bytes
