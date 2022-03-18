@@ -138,7 +138,7 @@ int main () {
         wins = 0;
       }
 
-      if (wins >= 5) {
+      if (wins >= 1) {
         puts("Congrats, here's the flag!");
         puts(flag);
       }
