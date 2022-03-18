@@ -1,3 +1,4 @@
 *.img*
 node_modules
 tsk-output
+torrent.pcap
